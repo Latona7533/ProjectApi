@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for post in posts %}
+    <h1>{{post.title}}</h1>
+    <p>{{post.text}}</p>
+{% endfor %}
+<a href="api/v1/">to Api</a>
+
+</body>
+</html>
